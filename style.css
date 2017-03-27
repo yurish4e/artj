@@ -196,9 +196,41 @@ h1 {
   padding-bottom: 190px; }
 
 /**** block-5 ****/
+#block-5 {
+  background: url(img/block-1.png) -900px repeat-x;
+  height: 1100px; }
+  #block-5 h1 {
+    color: #fff; }
+
 .back-form {
   width: 640px;
   margin: 0 auto;
-  outline: 1px solid red; }
+  background: #dedbdb;
+  padding: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box; }
+  .back-form .price, .back-form .price div {
+    background: none; }
+  .back-form input {
+    font-size: 18px;
+    padding: 15px 0 15px 28px;
+    width: 94%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #999; }
+
+.timer {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #999;
+  border-radius: 10px; }
+  .timer h3 {
+    font-size: 22px;
+    margin-bottom: 15px; }
 
 /*# sourceMappingURL=style.css.map */

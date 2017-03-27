@@ -87,24 +87,42 @@
             </div>
         </div>
     </section>
-    <section id="block-4"></section>
+    <section id="block-4">
+       <div class="container">
+          <h1>Отзывы наших клиентов</h1>
+           <div class="comment">
+            <div class="comment__single">
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vel odit, eligendi reprehenderit, maiores incidunt veniam nulla ullam eos doloremque, placeat. Magni non, earum minus! Aliquam delectus esse, quisquam cumque.</p>
+            </div>
+             <div class="comment__single">
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vel odit, eligendi reprehenderit, maiores incidunt veniam nulla ullam eos doloremque, placeat. Magni non, earum minus! Aliquam delectus esse, quisquam cumque.</p>
+            </div>
+        </div>
+       </div>
+        
+    </section>
     <section id="block-5">
         <div class="container">
+           <h1>Высококачественные <span>спортивные&nbsp;костюмы</span> Art<span>J</span></h1>
             <div class="back-form">
                 <div class="form">
                     <div class="timer">
-                        <script src="http://megatimer.ru/s/2d252171ea324e503c41c051464ac8d5.js"></script>
+                       <h3>До конца акции осталось:</h3>
+                        <script src="http://megatimer.ru/s/72355488d53d3e79659ad423b082b6f3.js"></script>
                     </div>
                     <div class="price">
-                        <div>
-                            <p>Обычная цена:</p>
-                            <p class="linethrough">3000грн</p>
-                        </div>
-                        <div>
-                            <p>Цена со скидкой:</p>
-                            <p class="bold">5000грн</p>
-                        </div>
+                    <div>
+                        <p>Обычная цена:</p>
+                        <p class="linethrough">2950 грн</p>
                     </div>
+                    <div>
+                        <p>Цена со скидкой:</p>
+                        <p class="bold">2064 грн</p>
+                    </div>
+                </div> 
+                
                 </div>
                 <form>
                     <!--https://github.com/agragregra/uniMail-->
@@ -113,13 +131,11 @@
                     <input type="hidden" name="admin_email" value="admin@mail.com">
                     <input type="hidden" name="form_subject" value="Form Subject">
                     <!-- END Hidden Required Fields -->
-                    <input type="text" name="Name" placeholder="You name..." required>
+                    <input type="text" name="Name" placeholder="Введите Ваше имя" required>
                     <br>
-                    <input type="text" name="E-mail" placeholder="You E-mail..." required>
+                    <input type="text" name="Phone" placeholder="Введите Ваш телефон" required>
                     <br>
-                    <input type="text" name="Phone" placeholder="You phone...">
-                    <br>
-                    <button>Send</button>
+                    <button class="button">ЗАКАЗАТЬ СО СКИДКОЙ</button>
                 </form>
             </div>
         </div>
@@ -129,6 +145,9 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            $('.comment').slick({
+                dots: true
+            });
             $('.slider-for').slick({
                 slidesToShow: 1
                 , slidesToScroll: 1
